@@ -1,7 +1,7 @@
 # SOMA-Mini-Project
 ## 미니 프로젝트 11조
-HTML + CSS : 안세훈, 김상우   
-JS : 나경아, 나용성, 이주석
+- HTML + CSS : 안세훈, 김상우   
+- JS : 나경아, 나용성, 이주석
 
 ## Algorithms Problem Social Network Service
 
