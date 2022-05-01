@@ -2,7 +2,7 @@ const onRequest = indexedDB.open('post', 1);
 
     onRequest.onupgradeneeded = () => {
       const database = onRequest.result
-      database.createObjectStore('post', {autoIncrement: true})
+      database.createObjectStore('post', { keyPath: "myKey" }/*{autoIncrement: true}*/)
 
     }
 

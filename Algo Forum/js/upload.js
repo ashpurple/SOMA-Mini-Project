@@ -1,7 +1,6 @@
 import { onRequest, addEntryToDb } from './database.js';
 
 onRequest.onsuccess = () => {
-    console.log('upload button')
     document.getElementById('upload').onclick = () => {
         const author = document.getElementById("author").value;
         const title = document.getElementById("title").value;
@@ -15,6 +14,5 @@ onRequest.onsuccess = () => {
         addEntryToDb('post', 
         {author:author, title:title, problemnum:problemnum, algorithm:algorithm, 
             language:language, solvetime:solvetime, contents:contents, code:code});
-        console.log(author, title, problemnum, algorithm, language, solvetime, contents, code);
     };
 }
